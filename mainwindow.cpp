@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    setWindowTitle("Smartech Chat");
+    setWindowTitle("Chat");
 
     soc.bind(8000);
     connect(&soc, SIGNAL(readyRead()),
